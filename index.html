@@ -1,0 +1,97 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>oscarsclub</title>
+</head>
+
+<body>
+
+	<header>
+        <div class="header">
+            <figure class="logo">
+                <img src="img/oscarsclub-isologo.png" alt="oscarsclub" title="Icono oscarsclub">
+                <figcaption class="header-figcaption"><a href="index.html"><strong>oscars</strong><span><em>club</em></span></a></figcaption>
+            </figure>
+            <nav class="header-menu">
+			    <ul>
+				    <li><a href="clubs-tematics.html"><strong>Clubes temáticos</strong></a></li>
+				    <li class="header-li"><a href="sesiones-2020.html"><strong>Sesiones 2020</strong></a></li>
+                </ul>
+            </nav>
+            <a  class="header-button" id="submit" href="#">Iniciar sesión</a>
+        </div>
+	</header>
+
+    <main>
+	<h2>¿Qué es Oscars Club?</h2>
+        <p class="index-p">Oscars Club organiza clubes virtuales de cine de diversos géneros y en diferentes lenguas, para los amantes del cine que quieran compartir reflexiones y debatir sobre las películas que les interesan sin necesidad de tener que ir a un espacio físico.</p>
+    <h2 class="index-h2">¿Cómo funciona?</h2>
+        <div class= "index-container">
+            <figure>
+                <img class="index-img" src='img/howto-register.png' alt='Icono para registrarse' title='Icono para registrarse'>
+                <figcaption class="index-figcaption">Regístrate</figcaption>
+            </figure>
+            <figure>
+                <img class="index-img" src='img/howto-club.png' alt='Icono para inscribirse al club' title='Icono para inscribirse al club'>
+                <figcaption class="index-figcaption">Inscríbete en un club</figcaption>
+            </figure>
+            <figure>
+                <img class="index-img" src='img/howto-film.png' alt='Icono para elegir película' title='Icono para elegir película'>
+                <figcaption class="index-figcaption">Elige una película</figcaption>
+            </figure>
+            <figure>
+                <img class="index-img" src='img/howto-speech.png' alt='Icono para disfrutar del debate' title='Icono para disfrutar del debate'>
+                <figcaption class="index-figcaption">Disfruta del debate</figcaption>
+            </figure>
+        </div>
+    <h2>Únete al club</h2>
+        <div class="index-form-container">
+            <p class="index-form-p">Estamos mirando tu próxima película preferida. <br>¿Te lo vas a perder?</p>
+            <form>
+			    <fieldset id="datos-personales">
+					<input type="text" id="nombre" placeholder='Nombre' pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" title="Només caràcters alfabètics. Un mínim de 2 i un màxim de 64 caràcters" required >
+                    
+                    <input type="email" id="correo-electronico" placeholder='Correo electrónico' pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,128}" title="Només caràcters alfabètics. Un mínim de 2 i un màxim de 128 caràcters" required >
+
+					<input type="text" id="contraseña" placeholder='Contraseña' pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,128}" title="Només caràcters alfabètics. Un mínim de 2 i un màxim de 128 caràcters"  >
+                </fieldset>
+                <p>INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>OSCARS CLUB. Finalidades</strong>: recogida de datos para la inscripción como socio del interesado. <strong>Legitimación</strong>: Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, salvo obligación legal. <strong>Derechos</strong>: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a oscarsclub@oscarsclub.org. <strong>Información Adicional</strong>: Puede ampliar la información en el enlace de <a href="#">Aviso Legal</a> y <a href="#">Política de privacidad</a>.</p>
+                <fieldset id="politicas">
+                    <input type="checkbox">
+                    <label class="index-form-label"> He leído y acepto la política de privacidad</label>
+                </fieldset>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+        </main>
+
+        <footer>
+            <div class= "footer-nav">
+            <nav>
+                <ul class="footer-menu">
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </nav>
+            <nav class="special-footer-nav">
+                <ul class="footer-menu">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="author-container">
+                <div class="author-name">
+                    <p>&copy; 2020 Elsa Gómez Frias</p>
+                    <p>Iconos<a href="https://www.flaticon.com"> flaticon.com</a></p>
+                    <p>Imágenes<a href="https://unsplash.com"> unsplash.com</a></p>
+                </div>  
+                <a class="scroll-icon" href="index.html#submit">&#8896;</a>
+            </div>
+        </footer>
+</body>
+</html>
